@@ -1,0 +1,17 @@
+body{
+  font-size: 16px;
+  background-color: rgb(147, 39, 143);
+}
+
+.hidden{
+
+  display: none;
+}
+
+.gameBox{
+  background-color: white;
+  margin:0 auto;
+  width:90%;
+
+
+}
