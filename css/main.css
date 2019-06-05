@@ -1,6 +1,6 @@
 body{
   font-size: 16px;
-  background-color: rgb(147, 39, 143);
+  background-color: black;
 }
 
 .hidden{
@@ -15,8 +15,8 @@ body{
   background-color: white;
   margin:0 auto;
   margin-top: 200px;
-  width:90%;
-  height: 500px;
+  width:1440px;
+  height: 1585px;
 
 }
 
@@ -46,4 +46,39 @@ body{
 
 #djPlace{
   align-self: center;
+}
+
+#Xilofone{
+  width: 100%;
+}
+
+#Alien{
+  width: 100%;
+}
+#Piano{
+  width: 100%;
+}
+.cls-2{
+  fill:#ff008f;
+}
+.cls-1{fill:#020000;}
+.pulsing{
+  fill:#ff008f;
+  animation-name:pulsing;
+  animation-duration:0.5s;
+  animation-iteration-count:infinite;
+
+}
+
+@keyframes pulsing{
+  0% {
+    fill:#ff008f;
+  }
+  50%{
+    fill:#A80064;
+  }
+  0%{
+    fill:#ff008f;
+  }
+
 }
