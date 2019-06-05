@@ -9,9 +9,41 @@ body{
 }
 
 .gameBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: white;
   margin:0 auto;
+  margin-top: 200px;
   width:90%;
+  height: 500px;
 
+}
 
+.musicDisc{
+  width: 100px;
+  height:100px;
+}
+
+#song1{
+  align-self: center;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 105px;
+}
+
+#song2{
+  align-self: center;
+  width:50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height:103px;
+
+}
+
+#djPlace{
+  align-self: center;
 }
