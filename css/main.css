@@ -32,6 +32,7 @@ body{
   flex-direction: row;
   justify-content: space-around;
   height: 105px;
+  background-color: grey;
 }
 
 #song2{
@@ -44,12 +45,47 @@ body{
 
 }
 
-#djPlace{
+#djTable{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-self: center;
+  margin-bottom: 50px;
 }
+
+.DJPink{
+  fill:#d7016f;
+  animation-name:glowingStereo;
+  animation-duration:0.5s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes glowingStereo{
+  0% {
+    fill:#b20262;
+  }
+  50%{
+    fill:#ff008c;
+  }
+
+  }
+
+
+
+#Disc{
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 150px;
+}
+
+
 
 #Xilofone{
   width: 100%;
+}
+
+#BeatHolder{
+  width:100px;
 }
 
 #Alien{
