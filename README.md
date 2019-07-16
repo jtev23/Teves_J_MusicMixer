@@ -1,23 +1,46 @@
-Project Title 
+[Dj Music Mixer Logo](images/AlienBW.svg)
+
+# Project Title
 
 DJ Music Mixer
 
-Description: Interactive Music & SVG Player
+## Description
 
-Getting Started Download repo to your computer or open the URL www.musicmixer.com
+This is a interactive drag and drop app that plays different peices of a song when you drop it on the catcher. 
 
-Authors
+## Getting Started
 
-Jonathan Teves
+Drag the peices from either song 1 or 2 on the base of the page to the top! 
 
-Guilherme Da Silva & Jonathan Teves
+### Dependencies
 
-Version History 1.0
+Works on Safari, Chrome, Firefox and other browsers!
 
-Various bug fixes and optimizations See commit change or See release history
+### Installing
 
-Initial Release August 12th. This project is licensed under the [music-mixer] License - see the LICENSE.md file for details
+Download and clone repo to a folder in your documents, or go to www.Musicmixer.com and drag and drop!
 
-Acknowledgments www.musicmixer.com
+### Executing program
 
-# https://codepen.io/anon/pen/OYGXzJ this link is for the color animation for the icons
+Open index.html or go to the site above.
+
+## Help
+
+Only pick song 1 or song 2 into the catcher at the top, different beats with a different song wont work!
+
+## Authors
+
+Design:Jonathan Teves
+Development: Guilherme Da Silva Bueno
+
+
+## Version History
+
+1.0
+
+This project is licensed under the music mixer License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* www.incredibox.com
