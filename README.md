@@ -1,6 +1,4 @@
-![Dj Music Mixer Logo](images/dj-set.jpeg)
-
-# Project Title
+# Project Title ![Dj Music Mixer Logo](images/dj-set.jpeg)
 
 DJ Music Mixer
 
