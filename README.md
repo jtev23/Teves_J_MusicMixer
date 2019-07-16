@@ -1,4 +1,4 @@
-[Dj Music Mixer Logo](images/AlienBW.svg)
+![Dj Music Mixer Logo](images/AlienBW.svg)
 
 # Project Title
 
