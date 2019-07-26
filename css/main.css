@@ -14,10 +14,16 @@ body{
   justify-content: center;
   background-color: white;
   margin:0 auto;
-  margin-top: 200px;
-  width:50%;
-  height: 50%;
+  width:488px;
+  height: 35%;
 
+}
+
+.dropZones{
+  background-image: url(../images/DiscSVG.svg);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
 }
 
 .musicDisc{
@@ -49,41 +55,46 @@ body{
 
 }
 
-#djTable{
+.dropZones{
+
+}
+
+#DJ{
+  height: 400px;
+}
+
+#discDrop{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+#djTable{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-self: center;
-  margin-bottom: 50px;
+  background-image: url(../images/BackgroundResized.jpg);
+  background-repeat: no-repeat;
+  width:488px;
 }
 
 .song1Icons{
+  width:65px;
   margin:5px;
 }
 
-.DJPink{
-  fill:#d7016f;
-  animation-name:glowingStereo;
-  animation-duration:0.5s;
-  animation-iteration-count:infinite;
+.appendedIcons{
+  height: 60px;
 }
 
-@keyframes glowingStereo{
-  0% {
-    fill:#b20262;
-  }
-  50%{
-    fill:#ff008c;
-  }
-
-  }
 
 
 
 .Disc{
   margin-right: 5px;
   margin-left: 5px;
-  width: 150px;
+  width: 33%;
 }
 
 
