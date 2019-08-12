@@ -12,11 +12,12 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
+  background-color: black;
   margin:0 auto;
-  width:488px;
+  width:1018px;
   height: 35%;
 
+  margin-top: 50px;
 }
 
 .dropZones{
@@ -61,12 +62,16 @@ body{
 
 #DJ{
   height: 400px;
+  width: 640px;
+  margin-left: -78px;
 }
 
 #discDrop{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  width: 850px;
+  margin-left: -180px;
 }
 
 #djTable{
@@ -76,7 +81,8 @@ body{
   align-self: center;
   background-image: url(../images/BackgroundResized.jpg);
   background-repeat: no-repeat;
-  width:488px;
+  width:498px;
+  height: 570px;
 }
 
 .song1Icons{
