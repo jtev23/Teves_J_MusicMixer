@@ -14,10 +14,11 @@ body{
   justify-content: center;
   background-color: black;
   margin:0 auto;
-  width:1018px;
+  width:898px;
   height: 35%;
 
   margin-top: 50px;
+  background-image: url(../images/clubBackground.jpg);
 }
 
 .dropZones{
@@ -61,7 +62,7 @@ body{
 }
 
 #DJ{
-  height: 400px;
+  height: 420px;
   width: 640px;
   margin-left: -78px;
 }
@@ -79,10 +80,10 @@ body{
   flex-direction: column;
   justify-content: space-between;
   align-self: center;
-  background-image: url(../images/BackgroundResized.jpg);
+  /*! background-image: url(../images/BackgroundResized.jpg); */
   background-repeat: no-repeat;
-  width:498px;
-  height: 570px;
+  width:488px;
+  height: 600px;
 }
 
 .song1Icons{
