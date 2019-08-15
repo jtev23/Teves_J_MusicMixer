@@ -4,7 +4,8 @@
 
 
   const piecesBoard = document.querySelector('.songIcons'),
-
+  screenOverlay = document.querySelector('#overlay'),
+  reset = document.querySelector('#resetBut'),
 	dropZones = document.querySelectorAll('.dropZones');
 
 //Creating Audios
@@ -40,7 +41,8 @@
 
   //End of audios
 
-let draggablePieces = piecesBoard.querySelectorAll(".songIcons img");
+let draggablePieces = piecesBoard.querySelectorAll(".songIcons img")
+;
 
 draggablePieces.forEach(piece => {
 		piece.addEventListener("dragstart", function(e) {
@@ -64,6 +66,8 @@ dropZones.forEach(zone => {
 
 });
 
+
+
 zone.addEventListener("drop", function(e){
 
 
@@ -75,7 +79,7 @@ zone.addEventListener("drop", function(e){
 
   //classList to alter the songIcons
 
-  
+
 
   //make audio play
   //song1
@@ -162,6 +166,14 @@ zone.addEventListener("drop", function(e){
 });
 
 });
+function reload(){
+  location.reload(true);
+}
+function closeScreen(){
+  screenOverlay.classList.add('closeOverlay');
+}
+reset.addEventListener('click', reload);
+closeButton.addEventListener('click',closeScreen);
 
 
 
